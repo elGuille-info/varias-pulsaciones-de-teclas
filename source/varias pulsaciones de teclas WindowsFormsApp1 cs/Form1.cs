@@ -66,7 +66,7 @@ Ctrl+K, Ctrl+K";
             // esta de forma simple
             if (e.Control && e.Shift)
             {
-                if (e.KeyCode == Keys.V)
+                if (e.KeyValue == (int)Keys.V)
                 {
                     e.Handled = true;
 
